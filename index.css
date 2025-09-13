@@ -1,0 +1,162 @@
+
+/* 118EEA */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #118EEA;
+    height: 110vh;
+}
+
+.nav-dana{
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-dana img{
+    width: 100px;
+}
+
+.body-scroll{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.box-saldo{
+    width: 100%;
+    height: auto;
+    background-color: #118EEA;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.cover-dana img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bag-cpb{
+    background-color: #fff;
+    width: 90%;
+    height: 340px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.2px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.alert-baca{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(227,227,227,0.9);
+    border-radius: 10px;
+    color: #222;
+    font-size: 15px;
+    z-index: 999;
+    border: 1.4px solid #ddd;
+}
+
+.desc-baca img{
+    width: 60px;
+}
+
+.flex-text-flag{
+    display: flex;
+    font-size: 13px;
+    gap: 29px;
+}
+
+.flex-flag{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 70px;
+    padding: 5px;
+    background: #fff;
+    border: 1.2px solid #ccc;
+    gap: 5px;
+    border-radius: 7px;
+}
+
+.flex-flag img{
+    width: 23px;
+    height: auto;
+}
+
+.flex-inp{
+    display: flex;
+    gap: 10px;
+}
+
+.codetel{
+    font-size: 15px;
+}
+
+.inpno{
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border: 1.2px solid #ccc;
+}
+
+.inpno::placeholder{
+    color: #ccc;
+}
+
+.inpno:focus{
+    border: 1.2px solid red;
+    transition: 1s ease;
+}
+
+.claim{
+    width: 100%;
+}
+
+.claim button{
+    background-color: #118EEA;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    border: 1.3px solid #ccc;
+    box-shadow: -2px 2px 5px 0 #ccc;
+}
+
+.footer img{
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
